@@ -1,12 +1,7 @@
 const btn = document.querySelector('.nav-btn');
-const items = document.querySelector('.items');
-const exit = document.querySelector('.exit')
+const links = document.querySelector('.links');
 
 btn.addEventListener('click', function open(){
 
-    if(items.classList.contains('show-items')){
-        items.classList.remove('show-items')
-    }else{
-        items.classList.add('show-items')
-    }
+    links.classList.toggle ("show-links");
 })
