@@ -175,6 +175,7 @@ button{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    border: 1px solid black;
 
 }
 
@@ -203,4 +204,22 @@ button{
     background-color: black;
     color: white;
     padding: 10px;
+    cursor: pointer;
+}
+
+.btn-red:hover{
+    background-color: white;
+    border: 0.5px solid black;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.cart-total{
+    margin: 20px;
+}
+
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
